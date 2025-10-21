@@ -81,6 +81,7 @@ function App() {
               <h3>Top Tech</h3>
               <p>Built a full-stack e-commerce app with React, Node.js, Express, and MongoDB</p>
               <a href="https://github.com/Talsi95/Top-Tech-App.git" target="_blank">🔗 GitHub</a>
+              <a href="https://top-tech.onrender.com" target="_blank">🔗 Live Demo</a>
             </motion.div>
             <motion.div
               className="project"
@@ -89,9 +90,11 @@ function App() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
+              <img src="/YelpCamp.png" alt="YelpCamp Project" className="project-img" />
               <h3>YelpCamp</h3>
               <p>Built campground management system with authentication, authorization, and CRUD operations</p>
               <a href="https://github.com/Talsi95/YelpCamp-React-Talsi.git" target="_blank">🔗 GitHub</a>
+              <a href="https://yelpcamp-talsi.onrender.com" target="_blank">🔗 Live Demo</a>
             </motion.div>
           </div>
         </motion.section>
